@@ -1,3 +1,14 @@
+## Structure du projet
+```
+src/main/java/com/example/proxibanque/
+├── entity/          Entités JPA (Client, CompteBancaire, ConseillerClientele)
+├── repository/      Repositories pour l'accès aux données
+├── service/         Logique métier
+├── controller/      Contrôleurs REST
+├── dto/             Objets de transfert de données
+└── mapper/          Conversion entre entités et DTOs
+```
+
 ### Accéder à la console H2
 ![img_1.png](img_1.png)
 
@@ -41,3 +52,5 @@ SELECT * FROM COMPTE_EPARGNE;
 Le diagramme ci-dessous présente la structure des entités du système ProxiBanque.
 
 ![img.png](img.png)
+
+
