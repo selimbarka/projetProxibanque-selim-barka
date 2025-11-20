@@ -1,6 +1,6 @@
 package com.example.proxibanque.repository;
 
-import com.example.proxibanque.Entity.Client;
+import com.example.proxibanque.entity.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.List;

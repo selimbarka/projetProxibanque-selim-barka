@@ -1,4 +1,4 @@
-package com.example.proxibanque.Entity;
+package com.example.proxibanque.entity;
 
 import jakarta.persistence.Entity;
 

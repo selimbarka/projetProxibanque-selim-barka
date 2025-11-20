@@ -1,6 +1,6 @@
 package com.example.proxibanque.repository;
 
-import com.example.proxibanque.Entity.CompteCourant;
+import com.example.proxibanque.entity.CompteCourant;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
